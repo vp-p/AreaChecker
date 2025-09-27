@@ -1,6 +1,6 @@
 package factory;
 
-public class Square implements Calculable {
+class Square implements Calculable {
     private final double side;
 
     Square(Double side) {

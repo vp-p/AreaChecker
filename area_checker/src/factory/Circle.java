@@ -1,6 +1,6 @@
 package factory;
 
-public class Circle implements Calculable{
+    class Circle implements Calculable{
     private final double radius;
 
     Circle(Double radius) {
