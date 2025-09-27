@@ -1,14 +1,14 @@
 package factory;
 
-class Cube implements Calculable {
+class Hexagon implements Calculable {
     private final double side;
 
-    Cube(Double side) {
+    Hexagon(Double side) {
         this.side = side;
     }
 
     @Override
     public Double calculateArea() {
-        return 6.0 * side * side;
+        return (3.0 * Math.sqrt(3.0) / 2.0) * side * side;
     }
 }
