@@ -9,7 +9,7 @@ package factory;
 
     @Override
     public Double calculateArea() {
-        return 3.14 * radius * radius;
+        return Math.PI * radius * radius;
     }
 }
 
